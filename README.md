@@ -140,24 +140,24 @@ If you encounter issues:
 
 1. **Frontend errors**:
 
-1. Check the browser console for errors
-2. Verify that all dependencies installed correctly
-3. Make sure you're using Node.js 14+ and npm 7+
+  - Check the browser console for errors
+  - Verify that all dependencies installed correctly
+  - Make sure you're using Node.js 14+ and npm 7+
 
 
 
 2. **Backend errors**:
 
-1. Check the terminal where you're running the FastAPI server
-2. Verify that all Python dependencies installed correctly
-3. Make sure you're using Python 3.7+
+  - Check the terminal where you're running the FastAPI server
+  - Verify that all Python dependencies installed correctly
+  - Make sure you're using Python 3.7+
 
 
 
 3. **Connection issues**:
 
-1. Verify that both servers are running
-2. Check that the frontend is correctly configured to connect to the backend
-3. Look for CORS errors in the browser console
+  - Verify that both servers are running
+  - Check that the frontend is correctly configured to connect to the backend
+  - Look for CORS errors in the browser console
 
 
