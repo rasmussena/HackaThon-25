@@ -1,6 +1,29 @@
 # HackaThon-25
 HackaThon'25
 
+## Project Overview
+This project is a textbook chat application that leverages AI to provide intelligent responses to user queries about textbook content. The application uses a modern tech stack including Next.js for the frontend, FastAPI for the backend, and integrates with OpenAI and LangChain for AI capabilities.
+
+### Tech Stack
+- **Frontend**: Next.js with TypeScript
+- **Backend**: FastAPI (Python)
+- **AI Integration**: OpenAI API, LangChain
+- **Database**: Redis for caching
+- **Styling**: Tailwind CSS
+
+### Project Structure
+```
+textbook-chat-app/
+├── app/              # Next.js pages and routes
+├── components/       # Reusable React components
+├── backend/         # FastAPI backend services
+├── lib/            # Utility functions and shared code
+├── hooks/          # Custom React hooks
+├── data/           # Data models and types
+├── styles/         # Global styles and theme configuration
+└── public/         # Static assets
+```
+
 ## Configuration 
 You **MUST** create a .env file in the backend directory with the following components:
 - An OpenAI API key with format:  
@@ -117,24 +140,24 @@ If you encounter issues:
 
 1. **Frontend errors**:
 
-1. Check the browser console for errors
-2. Verify that all dependencies installed correctly
-3. Make sure you're using Node.js 14+ and npm 7+
+  - Check the browser console for errors
+  - Verify that all dependencies installed correctly
+  - Make sure you're using Node.js 14+ and npm 7+
 
 
 
 2. **Backend errors**:
 
-1. Check the terminal where you're running the FastAPI server
-2. Verify that all Python dependencies installed correctly
-3. Make sure you're using Python 3.7+
+  - Check the terminal where you're running the FastAPI server
+  - Verify that all Python dependencies installed correctly
+  - Make sure you're using Python 3.7+
 
 
 
 3. **Connection issues**:
 
-1. Verify that both servers are running
-2. Check that the frontend is correctly configured to connect to the backend
-3. Look for CORS errors in the browser console
+  - Verify that both servers are running
+  - Check that the frontend is correctly configured to connect to the backend
+  - Look for CORS errors in the browser console
 
 
