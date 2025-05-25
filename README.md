@@ -1,6 +1,29 @@
 # HackaThon-25
 HackaThon'25
 
+## Project Overview
+This project is a textbook chat application that leverages AI to provide intelligent responses to user queries about textbook content. The application uses a modern tech stack including Next.js for the frontend, FastAPI for the backend, and integrates with OpenAI and LangChain for AI capabilities.
+
+### Tech Stack
+- **Frontend**: Next.js with TypeScript
+- **Backend**: FastAPI (Python)
+- **AI Integration**: OpenAI API, LangChain
+- **Database**: Redis for caching
+- **Styling**: Tailwind CSS
+
+### Project Structure
+```
+textbook-chat-app/
+├── app/              # Next.js pages and routes
+├── components/       # Reusable React components
+├── backend/         # FastAPI backend services
+├── lib/            # Utility functions and shared code
+├── hooks/          # Custom React hooks
+├── data/           # Data models and types
+├── styles/         # Global styles and theme configuration
+└── public/         # Static assets
+```
+
 ## Configuration 
 You **MUST** create a .env file in the backend directory with the following components:
 - An OpenAI API key with format:  
