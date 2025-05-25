@@ -1,3 +1,17 @@
+"""
+File: graph.py
+Description: This module defines the state graph for the chatbot, including the system prompt and tool routing. Modify
+the system prompt to change the chatbot's behavior and interaction style.
+Dependencies:
+    - langgraph.graph
+    - backend.tools
+    - backend.state
+    - langchain_core.messages
+    - typing
+    - langgraph.checkpoint.memory
+    - langgraph.prebuilt.create_react_agent
+"""
+
 from langgraph.graph import StateGraph, START, END
 from backend.tools import BasicToolNode, get_tools
 from backend.state import State

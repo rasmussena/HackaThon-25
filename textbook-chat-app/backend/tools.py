@@ -1,3 +1,20 @@
+"""
+File: tools.py
+Description: This module defines tools for the chatbot, including a node to process tool calls
+and a function to retrieve tools(i.e. the textbook retriever).
+Functions:
+    get_tools(retriever): Returns a list of tools for the chatbot.
+Dependencies:
+    - json
+    - langchain_core.messages.ToolMessage
+    - langchain_community.tools.tool
+    - langchain_openai.ChatOpenAI
+    - langgraph.prebuilt.create_react_agent
+    - langchain.tools.retriever.create_retriever_tool
+    - ast
+    - re
+"""
+
 import json
 from langchain_core.messages import ToolMessage
 from langchain_community.tools import tool

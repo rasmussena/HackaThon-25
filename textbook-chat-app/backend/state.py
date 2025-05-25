@@ -1,3 +1,14 @@
+"""
+File: state.py
+Description: This module defines the state for the chatbot, including messages.
+It uses the `MessagesState` from `langgraph.graph.message` to manage the state of messages.
+Dependencies:
+    - langgraph.graph.message
+    - langgraph.graph
+    - typing
+    - typing_extensions
+"""
+
 from typing import Annotated
 from typing_extensions import TypedDict
 from langgraph.graph.message import add_messages

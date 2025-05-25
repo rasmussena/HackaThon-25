@@ -1,3 +1,26 @@
+"""
+File: main.py
+Description: This module defines the main FastAPI application for the TextbookAI API.
+It includes user authentication, chat functionality with textbooks, and chat history retrieval.
+Dependencies:
+    - fastapi
+    - fastapi.middleware.cors
+    - fastapi.security
+    - pydantic
+    - typing
+    - datetime
+    - jwt
+    - json
+    - openai
+    - langchain_openai
+    - backend.redis_client
+    - backend.routes.auth
+    - backend.retriever
+    - backend.graph
+    - dotenv
+    - pathlib
+"""
+
 from fastapi import FastAPI, Depends, HTTPException, status
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.security import OAuth2PasswordBearer, OAuth2PasswordRequestForm

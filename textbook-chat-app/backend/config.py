@@ -1,3 +1,10 @@
+"""
+File: config.py
+Description: This module defines the pydantic settings for the TextbookAI application.
+Dependencies:
+    - pydantic_settings
+"""
+
 from pydantic_settings import BaseSettings
 
 class Settings(BaseSettings):

@@ -1,3 +1,22 @@
+"""
+File: retriever.py
+Description: This module defines a function to create a retriever for OpenStax textbooks. This retriever uses 
+RAG(Retrieval-Augmented Generation) to retrieve relevant information from the textbook PDF. The number of documents
+retrieved can be modified by changing the `max_documents` parameter in the `ContextualCompressionRetriever`.
+Dependencies:
+    - langchain_community.document_loaders
+    - langchain_openai
+    - langchain.retrievers
+    - langchain.retrievers.document_compressors
+    - langchain_core.documents
+    - langchain_chroma
+    - chromadb
+    - PyPDF2
+    - backend.bookmark
+    - dotenv
+    - tqdm
+"""
+
 import os
 import json
 

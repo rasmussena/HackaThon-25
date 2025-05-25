@@ -1,3 +1,14 @@
+"""
+File: bookmark.py
+Description: This module contains functions to create a bookmarks.json file from a PDF. This file
+contains the structure of the textbook, including chapters and sections, along with their page numbers.
+Dependencies:
+    - PyPDF2
+    - os
+    - json
+    - re
+"""
+
 from PyPDF2 import PdfReader
 
 import os
